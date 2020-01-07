@@ -51,7 +51,7 @@ if (hacker2.localeCompare(hacker1) > 0) {
   console.log("What?! You both have the same name?");
 }
 
-// Bonus
+// Bonus 1
 let loremIpsum = `
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra ante ligula, porttitor rutrum sem euismod in. Cras non ultrices nisi, quis rhoncus mi. Curabitur imperdiet ligula non feugiat lobortis. Pellentesque fringilla, nibh sed maximus viverra, dui odio rutrum urna, vitae hendrerit nulla velit vitae est. Ut sit amet leo non sem luctus rutrum. Fusce sagittis lectus quis diam consequat dignissim. In quis dapibus lectus. Suspendisse potenti. Donec tempor placerat diam, sed fringilla nulla scelerisque id. Nulla blandit neque nibh. Suspendisse sit amet lacus lobortis erat cursus lobortis. Etiam sit amet ante pellentesque sapien aliquam ultricies nec id urna. Nunc feugiat placerat est, eleifend elementum tellus semper sit amet. Ut nec dictum metus, eget elementum nulla. Vestibulum eget nulla id massa tincidunt interdum at eget mauris. Duis lacinia urna nisl, non malesuada nisi condimentum sed. Etiam non vulputate odio. Nunc iaculis eros justo. Aliquam mollis nibh sed sagittis fermentum. Pellentesque cursus quis nulla eu consectetur. Maecenas elementum blandit faucibus. Mauris tincidunt vulputate consectetur. Nullam tincidunt, elit at bibendum egestas, nunc elit sodales nibh, scelerisque condimentum lorem risus ut arcu. In sit amet commodo sem. Pellentesque eget lacinia leo. Sed sagittis rutrum odio in finibus. Nulla ultrices, elit eleifend convallis tincidunt, tellus mauris auctor augue, et placerat sem purus sed est. Aenean sit amet mi et elit consectetur congue. Praesent facilisis convallis lacinia. Aliquam erat volutpat. Nulla et turpis viverra, euismod risus eu, dapibus felis. Pellentesque neque libero, elementum ut dapibus a, porta sit amet mi. Aliquam quis malesuada eros, a efficitur justo. Mauris nec mauris condimentum, rutrum velit in, consequat lorem. Integer varius nunc in metus molestie rutrum. Nullam rutrum magna nec est ultricies, non blandit erat placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 `;
@@ -60,10 +60,3 @@ let splitted = loremIpsum.split(" ");
 let arrayCounter = splitted.length;
 console.log(arrayCounter);
 console.log("'et' appears " + loremIpsum.match(/et/g).length + " times.");
-
-let phraseToCheck = "phrase to check";
-phraseToCheck = phraseToCheck.replace(/ /g, "");
-
-for (let i = phraseToCheck.length - 1; i >= 0; i--) {
-  phraseToCheck[i];
-}
